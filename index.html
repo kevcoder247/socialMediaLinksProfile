@@ -4,9 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <title>Social Links Profile</title>
 </head>
 <body>
-  <h1 class="text-3xl">Social Links Profile</h1>
+  <!-- Global Container -->
+  <section class="flex justify-center items-center min-h-screen bg-[#121212]">
+
+  <!-- Card Container -->
+    <div class="w-[85%] max-w-[400px] md:my-10 bg-[#242323d1] rounded-xl">
+  
+  <!-- Image -->
+      <div class="pt-5">
+        <img src="images/avatar-jessica.jpeg" alt="" class="w-1/3  mx-auto rounded-full ">
+      </div>
+      <!-- Name -->
+      <h1 class="text-[1.8rem]  pt-4 text-white text-center font-semibold">Jessica Randall</h1>
+      <!-- Location -->
+      <h3 class="text-neon font-extrabold text-center pt-3">London, United Kingdom</h3>
+      <!-- Bio -->
+      <p class="text-center text-white pt-6 text-[14px]">"Front-end developer and avid reader."</p>   
+
+      <!-- Links -->
+       <div class="mt-4">
+        <ul class="flex flex-col justify-center items-center">
+          <li class="link-styles">GitHub</li>
+          <li class="link-styles mt-4"> Frontend Mentor</li>
+          <li class="link-styles mt-4">Linkedin</li>
+          <li class="link-styles mt-4">Twitter</li>
+          <li class="link-styles mt-4 mb-[2rem]">Instagram</li>
+        </ul>
+       </div>
+
+
+
+    </div>
+  </section>
 </body>
 </html>

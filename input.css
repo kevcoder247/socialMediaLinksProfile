@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.link-styles{
+  @apply bg-[#343333d1] w-[85%] text-center text-white rounded-md p-3 font-extrabold hover:bg-neon hover:text-black hover:cursor-pointer
+}
